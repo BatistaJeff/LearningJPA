@@ -16,11 +16,10 @@ public class TestJPARelacionamento {
 	public static void main(String[] args) {
 		
 		Conta conta = new Conta();
-//		conta.setAgencia("Osasco");
-//		conta.setBanco("Itau");
-//		conta.setNumero("230-1");
-//		conta.setTitular("Animal de teta");
-		conta.setId(1);
+		conta.setAgencia("Osasco");
+		conta.setBanco("Itau");
+		conta.setNumero("230-1");
+		conta.setTitular("Animal de teta");
 		
 		Movimentacao movimentacao = new Movimentacao(); 
 		movimentacao.setData(Calendar.getInstance());

@@ -12,6 +12,7 @@
 
 		<!-- Aqui são listadas todas as entidades -->
 		<class>br.com.learning.modelo.Conta</class>
+		<class>br.com.learning.modelo.Movimentacao</class>
 		<properties>
 
 			<!-- Propriedades JDBC -->
